@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <style>
+    table, tr, td, th {
+        border: 1px solid blue;
+        border-collapse: collapse;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    button, label, input, textarea { font: 2em sans-serif; }
+    input { 
+        box-shadow: 8px 8px 8px gray;
+        border-radius:  8px;
+        height: 2em;
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body>
+    <label for="topic">Topic: </label>
+    <input id="topic" type="text">
+    <label for="note">Note: </label>
+    <textarea name="note" id="note" cols="30" rows="2"></textarea>
+    <button id="save">Save Note</button>
+    <table>
+        <thead> <tr> <th>Time Stamp</th> <th>Topic</th> <th>Note</th> </tr> </thead>
+        <tbody> </tbody>
+    </table>
+</body>
+<script src="notes.js"></script>
+</html>

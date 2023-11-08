@@ -1,0 +1,3 @@
+arn:aws:dynamodb:us-west-2:236252232593:table/notes
+
+arn:aws:dynamodb:us-west-2:236252232593:table/moreNotes
